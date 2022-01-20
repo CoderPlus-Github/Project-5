@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tanmay's Coding Materials</title>
+</head>
+<body>
+    <!-- Section Nav -->
+    <nav>
+        <h2><a href="index.html">Tanmay's Coding Materials</a></h2>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#">Tutorials</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <!-- End Section Nav -->
+
+
+    <!-- Section Hero -->
+    <section class="hero">
+        <div class="text-box">
+            <h1 class="hero-h1">Tanmay's Coding Materials</h1>
+            <p class="hero-p">This is my official site where I will be uploading my Courses, Tutorials and Projects. <br> I will also provide the SOURCE CODE for reference.</p>
+            <a href="#feature" class="hero-btn">Get Started</a>
+        </div>
+    </section>
+    <!-- End Section Hero -->
+
+
+    <!-- Section Feature -->
+    <section id="feature">
+        <div class="flex">
+            <img src="Images/code-quality-standard.jpg" class="feature-img">
+            <div class="text">
+                <h2>Hello Everyone</h2>
+                <p>I am a Coder. This is my official site where I will be uploading my Courses, Tutorials and Projects.I will also provide the SOURCE CODE for reference. This is a Kind of Backup of my files stored online.</p>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Feature -->
+
+
+    <!-- Section Cards -->
+    <section class="cards">
+        <h2>Files</h2>
+        <p>The files Uploaded here are the <span class="highlight">Course Files</span> <br> <span class="highlight">Project Files</span> and <span class="highlight">Tutorial Files</span></p>
+        <div class="cards-row">
+            <div class="cards-div">
+                <div class="cards-col">
+                    <img src="Images/online-course.png" class="cards-img">
+                    <div>
+                        <h3>Courses</h3>
+                        <p>All the files of Course Bootcamp are uploaded here. You can access them through Getting In.</p>
+                        <a href="course.html" class="card-btn">Get In</a>
+                    </div>
+                </div>
+                <div class="cards-col">
+                    <img src="Images/projects.png" class="cards-img">
+                    <div>
+                        <h3>Projects</h3>
+                        <p>All the files of Projects are uploaded here. You can access them through Getting In.</p>
+                        <a href="projects.html" class="card-btn">Get In</a>
+                    </div>
+                </div>
+                <div class="cards-col">
+                    <img src="Images/video-tutorial.png" class="cards-img">
+                    <div>
+                        <h3>Tutorials</h3>
+                        <p>All the files of Tutorials are uploaded here. You can access them through Getting In.</p>
+                        <a href="#" class="card-btn">Get In</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Cards -->
+
+
+    <!-- Section Footer -->
+    <section class="footer">
+        <div class="footer-flex-container">
+            <p>Made with <i class="fa fa-heart-o"></i> by <span>Tanmay</span></p>
+        </div>
+    </section>
+    <!-- End Section Footer -->
+
+
+    <!-- JavaScript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <!-- End JavaScript -->
+</body>
+</html>

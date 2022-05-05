@@ -5,105 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Projects - Tanmay's Coding Materials</title>
+    <title>SoftCode | Projects</title>
 </head>
 <body>
-    <!-- Section Nav -->
-    <nav>
-        <h2><a href="index.html">Tanmay's Coding Materials</a></h2>
-        <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" onclick="hideMenu()"></i>
+    <div class="navbar">
+        <div class="logo-box">
+            <img class="logo" src="./Images/code-quality-standard.jpg">
+            <h3>SoftCode</h3>
+        </div>
+        <div class="link-box">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="course.html">Courses</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="#">Tutorials</a></li>
             </ul>
         </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
-    </nav>
-    <!-- End Section Nav -->
-
-
-    <!-- Section Hero -->
-    <section class="hero">
-        <div class="text-box">
-            <h1 class="hero-h1">Projects</h1>
-            <p class="hero-p">Projects files are uploaded here.</p>
-            <a href="#feature" class="hero-btn">Get Started</a>
-        </div>
-    </section>
-    <!-- End Section Hero -->
-
-
-    <!-- Section Feature -->
-    <section id="feature">
-        <div class="flex">
-            <img src="Images/projects.png" class="feature-img2">
-            <div class="text">
-                <h2>Project Files Here!</h2>
-            </div>
-        </div>
-    </section>
-    <!-- End Section Feature -->
-
-
-    <!-- Section Cards -->
-    <section class="cards">
-        <h2>Files</h2>
-        <p>The files Uploaded here are the <span class="highlight">Project Files</span></p>
-        <div class="cards-row">
-            <div class="cards-div">
-                <div class="cards-col">
-                    <img src="Images/web-dev.png" class="cards-img">
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+                <div>
                     <div>
-                        <h3>Web Development Projects</h3>
-                        <p>All the files of Web Development Projects are uploaded here. You can access them through Getting In.</p>
-                        <a href="#" class="card-btn">Get In</a>
-                    </div>
-                </div>
-                <div class="cards-col cards-col-hidden">
-                    <img src="Images/css.png" class="cards-img">
-                    <div>
-                        <h3>####</h3>
-                        <p>####</p>
-                        <a href="#" class="card-btn">Get In</a>
-                    </div>
-                </div>
-                <div class="cards-col cards-col-hidden">
-                    <img src="Images/js.png" class="cards-img">
-                    <div>
-                        <h3>####</h3>
-                        <p>####</p>
-                        <a href="#" class="card-btn">Get In</a>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="About.html">About</a></li>
+                            <li><a href="courses.html">Courses</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- End Section Cards -->
+    </div>
 
-
-    <!-- Section Footer -->
-    <section class="footer">
-        <div class="footer-flex-container">
-            <p>Made with <i class="fa fa-heart"></i> by <span>Tanmay</span></p>
+    <div class="hero">
+        <div>
+            <h1>Projects</h1>
+            <p>Welcome to the 'Projects' Section.</p>
         </div>
-    </section>
-    <!-- End Section Footer -->
+    </div>
 
+    <div class="main">
+        <h2>Let's get started!</h2>
+        <div class="card-box">
+            <div class="card">
+                <div class="card-img"><img src="./Images/web-dev.png"></div>
+                <div class="content">
+                    <h3>Web Development Projects</h3>
+                    <p>Gain access to my web development projects here!</p>
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- JavaScript -->
-    <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu() {
-            navLinks.style.right = "0";
-        }
-        function hideMenu() {
-            navLinks.style.right = "-200px";
-        }
-    </script>
-    <!-- End JavaScript -->
+    <div class="footer">
+        <p>Copyright &copy; 2022 SoftCode.com</p>
+    </div>
 </body>
 </html>
